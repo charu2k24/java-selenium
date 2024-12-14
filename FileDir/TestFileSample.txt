@@ -1,0 +1,87 @@
+SELENIUM
+--------
+DAY1
+--------
+1.Introduction to selenium
+2.Download jar file and drivers
+3.Browser Launch
+
+QUESTIONS(Theory)
+-----------------
+1.What is Automation Testing and benefits?
+By using automation testing we, can use less man powder, saves time. can run load tests(large data.batch processing etc.)
+------------------------------------------------------------------------------------
+2.Why should Selenium be selected as a test tool?
+selenium is used for testing web bassed applications
+seleneium is free source
+seleunium tool supports multiple browsers to test
+---------------------------------------------
+3.What is Selenium? What are the different Selenium components?
+selenium is automation testing tool
+selenium IDE,RC,web drivers
+--------------------------------------------------------------
+
+4.What is the difference between Selenium IDE, Selenium RC, and WebDriver?
+IDE-supports only FF
+Selenium RC-supports all browsers. but need a server
+Webdriver-supports all browsers
+grid-for cross platform
+--------------------------------------------------
+
+5.What is the latest version of selenium jar file and how you will configure selenium jar file    with eclipse?
+4.24
+download
+open eclise->create a new folder under the project named library
+copy paste the jar file
+delete moduleInfo.java file
+now click BUildpath->add to build path
+-----------------------------------
+6.Can Google Chrome be supported by Selenium IDE?
+no.IDE supports only FF
+---------------------------------------------------------
+7.What are the different browsers supported by selenium?
+chrome,IE,FF
+-------------------------------------------------------------------------
+8.What is the Classname,driver name for the below browsers,
+     1.Firefox browser----driver name-webdriver,classname:FireFoxDriver
+     2.Chrome browser----driver name-webdriver,classname:ChromeDriver
+     3.IE----driver name-webdriver,classname:InternetExplorerDriver
+     4.safari browser
+     5.Opera browser
+---------------------------------------------------------------
+9.What is the WebDriver and WebDriver is class or interface?
+web driver is an interface in which driverclasses are located
+-------------------------------------------------------------
+10.What is the method name to launch the url?
+driver.get("urlname")
+-------------------------------------------------------------
+11.Method names to get the title and current URL?
+title--> getTitiel();
+get current url->getCurrentURL();
+----------------------------------------------------------------
+12.What is the difference between close() and quit()?
+quit closes the tab and close closes the entire browser
+---------------------------------------------------------
+
+QUESTIONS(practical)
+----------------------
+1.Launch the below URL's in firefox browser:
+-------------------------------------------
+	1.Greens technologys - http://www.greenstechnologys.com/
+	2.Facebook - https://www.facebook.com/
+        3.Amazon - https://www.amazon.in
+	4.Greens technologys-http://greenstech.in/selenium-course-content.html
+
+2.Launch the below URL's in chrome browser:
+------------------------------------------
+	1.Greens technologys - http://www.greenstechnologys.com/
+        2.Gmail - http://gmail.com/
+	3.Flipkart - http://www.flipkart.com/
+	4.Greens technology-http://greenstech.in/selenium-course-content.html
+
+3.Launch the below URL's in IE browser:
+--------------------------------------
+	1.Greens technologys - http://www.greenstechnologys.com/
+	2.DemoQa Registration http://demo.automationtesting.in/Register.html
+	3.Greens technologys - http://www.greenstechnologys.com/
+        4.Greens technologys- http://greenstech.in/selenium-course-content.html
